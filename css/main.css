@@ -68,23 +68,61 @@ header>div#logo>a>span {
     font-family: 'Suez One', serif;
 }
 
-header>div#logo>a>img{
+@media (min-width: 950px){
+    header>div#logo>a>img{
     margin-left: 15%;
 }
-/*Нужна будет адаптивность*/
-#logo {
-    float: left;
-    width: 30%;
-}
+    #logo {
+        float: left;
+        width: 30%;
+    }
 
-#about {
-    float: left;
-    width: 37%;
-}
+    #about {
+        float: left;
+        width: 37%;
+    }
 
-#reg_auth {
-    float: right;
-    width: 30%;
+    #reg_auth {
+        float: right;
+        width: 30%;
+    }
+}
+@media (max-width: 949px) and (min-width: 525px) {
+    header>div#logo>a>img{
+    margin-left: 15%;
+}
+    #logo {
+        float: left;
+        width: 50%;
+    }
+
+    #about {
+        visibility: hidden;
+        display: none;
+    }
+
+    #reg_auth {
+        float: right;
+        width: 50%;
+    }
+}
+@media (max-width: 524px) {
+    header>div#logo>a>img{
+    margin-left: 5%;
+}
+    #logo {
+        width: 100%;
+    }
+
+    #about {
+        visibility: hidden;
+        display: none;
+    }
+
+    #reg_auth {
+        visibility: hidden;
+        display: none;
+    }
 }
 
 #about {
