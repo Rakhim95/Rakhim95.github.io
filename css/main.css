@@ -145,31 +145,7 @@ header>div#logo>a>span {
     margin-left: 10%;
 }
 
-#reg_auth>a {
-    color: white;
-}
 
-#reg_auth>a:hover>div.btn{
-    border-bottom: 2px solid rgba(217, 91, 72, 1);
-    margin-top: 7px;
-}
-
-#reg_auth>a:active>div.btn{
-    border-bottom: 0;
-    margin-top: 9px;
-}
-
-#reg_auth>a>div.btn {
-    float: right;
-    margin-right: 3%;
-    margin-top: 5px;
-    border-radius: 5px;
-    padding: 5px 9px;
-    font-size: 1,4em;
-    background-color: rgba(236, 101, 80, 1);
-    text-shadow: #454545 0 0 2px;
-    border-bottom: 4px  solid rgba(217, 91, 72, 1);
-    font-family: 'Roboto Slab', serif;
 }
 
 /*
